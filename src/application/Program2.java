@@ -39,6 +39,10 @@ public class Program2 {
 			System.out.println(dep2);
 		}
 		
+		System.out.println("\n=== Test5: Update ===");
+		dep = departmentDao.findById(2);
+		dep.setName("Cloth");
+		departmentDao.update(dep);
 		
 		
 		
